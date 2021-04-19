@@ -16,7 +16,7 @@
 	//==========
 
 	// Définition du sujet.
-	$sujet = "Nouveau message de MacMooc.";
+	$sujet = "New message from Electrona";
 	//=========
 	 
 	// Création du message.
@@ -32,7 +32,7 @@
 	//==========
 
 	// On redirige vers la page de remerciements.
-	header('Location: http://macmooc.000webhostapp.com/thanks-page.html');
+	header('Location: http://max-electrona.000webhostapp.com/thanks-page.html');
 	//==========
 
 ?>
