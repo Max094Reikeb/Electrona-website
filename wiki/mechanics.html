@@ -95,13 +95,17 @@
 
 						<span class="image left"><img src="../images/mechanics/gamerule_doblackholesexist.png"
 								alt="" /></span>
-						<h4 id="gamerule_doblackholesexist">Gamerule <code>doBlackholesExist</code></h4>
+						<h4 id="gamerule_doblackholesexist">Gamerules <code>doBlackholesExist</code> and
+							<code>doNuclearBombsExplode</code>
+						</h4>
 						<p>
-							This Gamerule is a boolean type that specifies if black holes can exist or not. If set to
-							true, <a href="blocks.html#singularity">Sigularities</a> can spawn when a <a
-								href="blocks.html#nuclear_generator_controller">Nuclear Generator Controller</a>
+							Those Gamerules are boolean type gamerules. The first one specifies if black holes can exist
+							or not. If set to true, <a href="blocks.html#singularity">Sigularities</a> can spawn when a
+							<a href="blocks.html#nuclear_generator_controller">Nuclear Generator Controller</a>
 							explodes. If a <a href="blocks.html#singularity">Singularity</a> has already spawned,
-							setting this value to false can prevent the black hole's expansion.
+							setting this value to false can prevent the black hole's expansion. The second one specifies
+							if a <a href="blocks.html#nuclear_bomb">Nuclear Bomb</a> can explose or not. If set to true,
+							they can.
 						</p>
 
 						<span class="image left"><img src="../images/mechanics/engineer_profession.png" alt="" /></span>
@@ -111,6 +115,15 @@
 							villager without profession next to a <a href="blocks.html#compressor">Compressor</a> and
 							the villager will obtain the Engineer profession. You can find all the trades of the
 							Engineer <a href="engineer.html">here</a>.
+						</p>
+
+						<span class="image left"><img src="../images/mechanics/nuclear_biome_structure.png"
+								alt="" /></span>
+						<h4 id="nuclear_biome_structure">Nuclear Biome and its Structures</h4>
+						<p>
+							The Nuclear Biome is a biome that is made of Nuclear stuff (<a
+								href="blocks.html#radioactive_dirt">Radioactive Dirt</a>, ...) and it has also ruined
+							structures.
 						</p>
 					</section>
 					<br />
@@ -300,6 +313,11 @@
 							This tag gathers all blocks able to stop and contain a Black Hole. It is by default applied
 							to the <a href="blocks.html#steel_block">Block of Steel</a> and the <a
 								href="blocks.html#steel_door">Steel Door</a>.
+						</p>
+
+						<h4 id="forge:panes"><code>forge:panes</code></h4>
+						<p>
+							This tag gathers all pane blocks so they can be destroyed in Nuclear Explosions.
 						</p>
 					</section>
 
